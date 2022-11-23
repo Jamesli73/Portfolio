@@ -300,6 +300,9 @@ h3 {font-size: var(--fs-h3)}
 .service {
     max-width: 500px;
     margin: 0 auto;
+    padding: 15px 0px 0px 0px;
+    border-radius: 10px;
+    background-color: #4c4c4c94;
 }
 
 @media (min-width: 800px) {
