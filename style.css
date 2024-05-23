@@ -483,7 +483,55 @@ h3 {font-size: var(--fs-h3)}
 }
 
 .portfolio-item-individual {
-    padding: 0 2em 2em;
+    padding: 0 2em;
     max-width: 1000px;
     margin: 0 auto;
+}
+
+/* keypad images */
+.keypad-img {
+    grid-gap: 1em;
+    max-width: 500px;
+    margin: 0 auto; /* Center the image horizontally */
+    justify-content: center;
+}
+
+/* carjack images */
+.carjack {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.keypad-intro {
+    display: grid;
+    justify-content: center;
+    margin: 0 auto;
+    padding-bottom: 36px;
+    padding-top: 0px;
+}
+
+.keypad-intro-subtitle {
+    margin: 0;
+    font-size: var(--fs-h3);
+    display: flex;
+}
+
+.keypad-build-process {
+    padding-top: 0px;
+    display: grid;
+    justify-content: center;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+
+.section__image__subtitles {
+    display: flex;
+    justify-content: center;
+    font-weight: var(--fw-bold);
+    font-size: small;
+    margin: 0 auto;
+    margin-bottom: 1em;
 }

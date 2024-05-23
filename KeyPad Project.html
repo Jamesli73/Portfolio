@@ -39,34 +39,78 @@
         <!-- Intro -->
         <section class="intro" id="home">
             <h1 class="section__title section__title--intro">
-                Custom <strong>Macro Keypad</strong>
+                Custom <strong>Macropad</strong>
             </h1>
-            <p class="section__subtitle section__subtitle--intro">A custom macro keypad that has a programmable dial and screen to boost productivity.</p>
+            <p class="section__subtitle section__subtitle--intro">Custom Macro Keypad With Knob</p>
             <img src="images/Keypad CAD.png" alt="Car jack screenshot" class="intro__img">
         </section>
 
-        <div class="portfolio-item-individual">
-            <p>
-                The motivation behind this project was to create a custom macro keypad that would help me with my productivity. While working I often listen to music
-                 and find it very annoying to hold down the function key to use the media keys on my keyboard to change the song. I wanted to create a keypad that
-                 would allow me to control my music in an intuitive way and also have the ability to program the keys to do other tasks. The dial would be used to
-                 change the volume and the screen would be used to display what the current mode is.
-            </p>
-            <p>
-                To accomplish this I needed to learn Fusion 360 to design the parts and then 3D print them. I also needed to learn how to program an Arduino to act as
-                a usb keyboard device and to set the keys, and dial to do the desired tasks. I also had to learn Eagle to design the custom PCB for the keypad to avoid
-                hardwiring the connections. The final product was a success and I use it everyday to control my music and complete tasks faster.
-            </p>
-            <img src="images/Schematic.png" alt="">
-            <img src="images/PCB.png" alt="">
-            <img src="images/IMG_6603.jpg" alt="">
-            <p>
-                These are just some of the individual parts that were made which were then used in the assembly. They all have realistic dimensions 
-                and can be manufactured in real life.
-            </p>
-        </div>
+        <section class="keypad-intro">
+            <h2 class="keypad-intro-subtitle">Project Description</h2>
+            <div class="portfolio-item-individual">
+                <p>
+                    The motivation behind this project was to create a custom macro keypad that would help me with my productivity. While working I often listen to music
+                    and find it very annoying to hold down the function key to use the media keys on my keyboard to change the song. I wanted to create a keypad that
+                    would allow me to control my music in an intuitive way and also have the ability to program the keys to do other tasks. The dial would be used to
+                    change the volume and the screen would be used to display what the current mode is.
+                </p>
+                <p>
+                    To accomplish this I needed to learn Fusion 360 to design the parts and then 3D print them. I also needed to learn how to program an Arduino to act as
+                    a usb keyboard device and to set the keys, and dial to do the desired tasks. I also had to learn Eagle to design the custom PCB for the keypad to avoid
+                    hardwiring the connections.
+                </p>
+                <p>
+                    The final product features 6 custom programmable keys, however by holding down the encoder button you can change presets that allows for another set of
+                    6 keys to be programmed. This allows for a total of 36 programmable keys in total which is more than enough for my needs. The knob is being used to control
+                    the volume and the OLED screen displays the current mode.
+                </p>
+            </div>
+        </section>
 
+        <section class="keypad-build-process">
+            <h2 class="keypad-intro-subtitle">Design Process</h2>
+            <div class="portfolio-item-individual">
+                <p>
+                    The design process was relatively straightforward for this project. I started by reading a ton of online forums like Reddit to find information about
+                    designing a custom keyboard PCB as well as watching a lot of YouTube videos. I then used Eagle to design the PCB and then exported the gerber files
+                    to send to a PCB manufacturer.
+                </p>
+            </div>
+            <img src="images/Schematic.png" alt="" class="keypad-img">
+            <p class="section__image__subtitles">Custom PCB schematic diagram</p>
+            <img src="images/PCB.png" alt="" class="keypad-img">
+            <p class="section__image__subtitles">Custom PCB CAD in Fusion 360</p>
+            <div class="portfolio-item-individual">
+                <p>
+                    I then designed the case in Fusion 360 and 3D printed it. I used a rotary encoder for the dial and Cherry MX switches for the keys. I also included a
+                    mini OLED display that I found on Amazon to display the mode and make the overall device feel more complete. I then soldered all the components onto the
+                    PCB and began to assemble the device.
+                </p>
+            </div>
+            <img src="images/Keypad CAD.png" alt="" class="keypad-img">
+            <p class="section__image__subtitles">The CAD of the Keypad in Fusion 360</p>
+            <img src="images/IMG_6604.jpg" alt="" class="keypad-img">
+            <p class="section__image__subtitles">Assembling the Keypad</p>
+            <div class="portfolio-item-individual">
+                <p>
+                    Lastly, I programmed the Arduino to act as a USB keyboard using the Arduino IDE and to set the keys and dial to do the desired tasks by using a helpful guide
+                    by "tinyboatproductions" on instructables. His guide can be found <a href="https://www.instructables.com/Programmable-Macropad-V2/">here</a>. The final
+                    product is shown below.
+                </p>
+            </div>
+            <img src="images/IMG_6606.jpg" alt="" class="keypad-img">
+            <p class="section__image__subtitles">Complete functioning Macropad</p>
+        </section>
         
+        <section class="keypad-build-process">
+            <h2 class="keypad-intro-subtitle">Final Thoughts</h2>
+            <div class="portfolio-item-individual">
+                <p>
+                    This project was a great learning experience for me as I was able to learn how to design a custom PCB, design a case in Fusion 360, and program an Arduino
+                    to act as a USB keyboard. I also learned how to solder components onto a PCB and how to assemble a device. I use this device everyday and it has helped me
+                    with my productivity and I am very proud of the final product.
+                </p>
+        </section>
 
         <!-- Footer and links -->
         <footer class="footer">
