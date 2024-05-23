@@ -490,8 +490,9 @@ h3 {font-size: var(--fs-h3)}
 
 /* keypad images */
 .keypad-img {
-    grid-gap: 1em;
     max-width: 500px;
+    width: 100%;
+    height: auto;
     margin: 0 auto; /* Center the image horizontally */
     justify-content: center;
 }
@@ -501,11 +502,11 @@ h3 {font-size: var(--fs-h3)}
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1em;
-    max-width: 800px;
+    max-width: 500px;
     margin: 0 auto;
 }
 
-.keypad-intro {
+.keypad-sections {
     display: grid;
     justify-content: center;
     margin: 0 auto;
@@ -519,16 +520,7 @@ h3 {font-size: var(--fs-h3)}
     display: flex;
 }
 
-.keypad-build-process {
-    padding-top: 0px;
-    display: grid;
-    justify-content: center;
-    margin: 0 auto;
-    padding-bottom: 2em;
-}
-
 .section__image__subtitles {
-    display: flex;
     justify-content: center;
     font-weight: var(--fw-bold);
     font-size: small;
